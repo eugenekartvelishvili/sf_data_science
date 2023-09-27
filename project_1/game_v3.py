@@ -1,6 +1,6 @@
 import numpy as np
 
-random_n = np.random.randint(1, 101)  # Случайное число
+random_n = np.random.randint(0, 101)  # Случайное число
 
 def random_predict_v2(number: int = 1) -> int:
     """Угадываем наше число методом бинарного поиска.
